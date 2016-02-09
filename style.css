@@ -1,0 +1,14 @@
+.block{
+	margin-left:100px;
+	margin-right:100px;
+	background-color:grey;
+}
+
+p {
+	font-size: 14px;
+}
+
+.container{
+	margin:auto;
+	width:1000px;
+}
