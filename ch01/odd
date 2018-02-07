@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+from datetime import datetime
+
+odds = []
+for n in range(60):
+	if n % 2 != 0:
+		odds.append(n)
+
+this_minute = datetime.today().minute
+
+if this_minute in odds:
+	print("This minute seems a little odd.")
+else:
+	print("Not an odd minute.")
