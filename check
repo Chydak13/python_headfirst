@@ -1,0 +1,4 @@
+#!/bin/bash
+
+if [[ -e $1 ]]; then echo Exist; else echo Not; fi
+

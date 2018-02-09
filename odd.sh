@@ -12,10 +12,10 @@ do
   fi
 done
 
-data=$(date +%M)
+#data=$(date +%M)
 
-let a=$data%2
-if [ $a == 0 ]
+#let a=$data%2
+if [ $(( $(date +%M)%2 )) == 0 ]
 then
 	echo This minute is not odd!
 else
